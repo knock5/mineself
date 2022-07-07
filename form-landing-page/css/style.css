@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap-out {
+    background-color: rgb(154, 154, 154);
+    padding: 180px 50px 370px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-box {
+    padding: 20px;
+    width: 50%;
+    background-color: yellow;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 10px;
+}
+
+.head {
+    padding: 7px 0px 20px 0px;
+}
+
+.head h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.head p {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.head span {
+    font-weight: bold;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.user-box {
+    padding: 10px;
+}
+
+#username {
+    border-radius: 7px;
+}
+
+.pw-box {
+    padding: 10px;
+}
+
+#password {
+    border-radius: 7px;
+}
+
+.btn-box {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.tombol-login {
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    font-weight: bold;
+    background-color: rgb(97, 194, 45);
+}
+
+.tombol-login:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.footer {
+    padding: 20px 0px 0px 0px;
+}
+
+.daftar-box h1{
+    font-size: 17px;
+}
+
+.user-signup {
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.user-signup a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-signup a:hover {
+    color: blue;
+}
